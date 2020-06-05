@@ -5,3 +5,12 @@ a mobile/laptop, it can give instructions to the rover to move forward/backword/
 instructions to the STM32 via the UART interface and the STM32H743 will do the needful.
 This project was a part of my internship project and was completed implemented and successfully tested for all the relevant criterias 
 pertaining to the same.
+
+### Files descriptions 
+The .ioc file uploaded is an STM32CubeMX file which can be used for generation a KEIL IDE project.
+The main.c and main.h file is having the actual code for the rover which was implemented
+The additional files required are in the Libraries directory in the same repository.
+
+### NOTE
+Although this code will help you generate and implement this project without any problems I recommend that you try to build your 
+own project for getting to know the various probles and debugging those problems which will surely help you learn more about embedded progeamming then these codes. 
